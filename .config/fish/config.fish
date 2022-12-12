@@ -5,6 +5,9 @@ set -x -g TERM "xterm-256color"
 set -x -g LC_ALL en_GB.UTF-8
 set -x -g LANG en_GB.UTF-8
 
+# Configure Starship
+starship init fish | source
+
 # Homebrew paths
 set -x -g PATH /usr/local/bin /usr/local/sbin $PATH
 set -x -g PATH /opt/homebrew/bin /opt/homebrew/sbin $PATH
