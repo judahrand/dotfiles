@@ -1,0 +1,13 @@
+[credential "https://github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[user]
+	email = 17158624+judahrand@users.noreply.github.com
+	name = Judah Rand
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
